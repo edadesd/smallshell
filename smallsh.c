@@ -497,7 +497,7 @@ int main () {
 			}
 
 			/*
-			* Check the last "arg" for whether
+			* Check the last arg token for whether
 			* it was the & operator. If it was,
 			* remove it from the list of operators
 			* and instead set the background flag.
@@ -615,7 +615,7 @@ int main () {
 				/*
 				 * Finish the array with NULL to indicate no more commands.
 				 * The array was initialized with MAX_ARGS + 1
-				 * positionsto ensure there would be room for this.
+				 * positions to ensure there would be room for this.
 				 */
 				execvLine[numArgs+1] = NULL;
 
